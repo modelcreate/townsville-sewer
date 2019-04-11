@@ -31,7 +31,7 @@ const path: any[] = []
 
 
 
-for (let i = 0; i < 20000; i++) {
+for (let i = 0; i < 1000; i++) {
   const features: Feature[] = (nodeData as FeatureCollection).features
   const rndFeature = features[Math.floor(Math.random() * features.length)];
 
