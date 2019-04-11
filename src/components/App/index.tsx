@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Deck />
+        <Deck loopLength={13014124} animationSpeed={1} />
       </div>
     );
   }
