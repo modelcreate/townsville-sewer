@@ -2,6 +2,7 @@
   "name": "townsville-sewer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://modelcreate.github.io/townsville-sewer",
   "dependencies": {
     "@turf/turf": "^5.1.6",
     "@types/jest": "24.0.11",
@@ -10,6 +11,7 @@
     "@types/react-dom": "16.8.3",
     "@types/react-map-gl": "^4.1.1",
     "deck.gl": "^6.4.9",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-map-gl": "^4.1.1",
@@ -19,7 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
