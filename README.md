@@ -1,7 +1,7 @@
 ## Townsville Sewer System Visualisation (WIP)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/modelcreate/model-view/master/TownsvilleSewer.gif" alt="Title Image"/>
+  <img src="https://raw.githubusercontent.com/modelcreate/townsville-sewer/master/TownsvilleSewer.gif" alt="Title Image"/>
 </p>
 
 
