@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/townsville-sewer/precache-manifest.80a1f83dad8d4ddcbe8880e0adc54831.js"
+  "/townsville-sewer/precache-manifest.2fc6662999650e74982efd4202245d05.js"
 );
 
 workbox.clientsClaim();
